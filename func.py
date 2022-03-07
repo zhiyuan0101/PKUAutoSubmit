@@ -17,6 +17,8 @@ def login(driver, userName, password, retry=0):
         raise Exception('门户登录失败')
 
     print('门户登陆中...')
+    print(userName)
+    print(password)
 
     appID = 'portal2017'
     iaaaUrl = 'https://iaaa.pku.edu.cn/iaaa/oauth.jsp'
